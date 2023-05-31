@@ -4,10 +4,10 @@ import { useState } from "react";
 const CheckBox = (props) => {
     return (
         <View style={styles.box} onStartShouldSetResponder={props.onPress}>
-            <Text style={styles.txt}>{props.txt}</Text>
             <View style={styles.outline}>
                 {props.checked && <View style={styles.checkmark}></View>}
             </View>
+            <Text style={styles.txt}>{props.txt}</Text>
         </View>
     );
 };
@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     txt: {
         color: '#172B4D',
         fontSize: 15,
-        marginRight: 5,
+        marginLeftt: 5,
     },
     outline:{
         borderRadius: 6,
