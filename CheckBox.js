@@ -34,8 +34,8 @@ const styles = StyleSheet.create({
     },
     checkmark: {
         border: '3px solid #7764E4',
-        borderTopWidth: 0,
-        borderRightWidth: 0,
+        borderTopColor: 'transparent',
+        borderRightColor: 'transparent',
         rotate: '-45deg',
         position: 'absolute',
         width: 18,
